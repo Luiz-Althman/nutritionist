@@ -10,8 +10,8 @@ export function Blogs() {
                 <p className="2xl:text-md 2xl:max-w-[996px] md:max-w-[780px] text-grey-20">
                     Our blog is a treasure trove of informative and engaging
                     articles written by our team of nutritionists, dietitians,
-                    and wellness experts. Here's what you can expect from our
-                    blog.
+                    and wellness experts. Here&rsquo;s what you can expect from
+                    our blog.
                 </p>
             </div>
             <div>
