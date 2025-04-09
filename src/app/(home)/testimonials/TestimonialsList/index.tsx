@@ -31,7 +31,7 @@ export function TestimonialsList() {
                 type="button"
                 name="Botão para voltar o ultimo feedback"
                 aria-label="Botão para voltar o ultimo feedback"
-                className="absolute -left-20 top-1/2 -translate-y-1/2 cursor-pointer text-grey-20 hidden md:block bg-green-95 rounded-xl p-3"
+                className="absolute -left-30 top-1/2 -translate-y-1/2 cursor-pointer text-grey-20 hidden md:block bg-green-95 rounded-xl p-3"
             >
                 <ChevronLeft className="w-8 h-8" />
             </button>
@@ -68,33 +68,10 @@ export function TestimonialsList() {
                 name="Botão para prosseguir ao próximo feedback"
                 aria-label="Botão para prosseguir ao próximo feedback"
                 onClick={() => instanceRef.current?.next()}
-                className="absolute -right-20 top-1/2 -translate-y-1/2 cursor-pointer text-grey-20 hidden md:block bg-green-95 rounded-xl p-3"
+                className="absolute -right-30 top-1/2 -translate-y-1/2 cursor-pointer text-grey-20 hidden md:block bg-green-95 rounded-xl p-3"
             >
                 <ChevronRight className="w-8 h-8" />
             </button>
-            <div className="flex gap-2 pt-10">
-                {testimonials.map((_, index) => (
-                    <button
-                        key={index}
-                        type="button"
-                        onClick={() => {
-                            instanceRef.current?.moveToIdx(index, true, {
-                                duration: 1000,
-                            });
-                            setCurrentSlide(index);
-                        }}
-                        className="text-gray-400 hover:text-gray-600 transition p-1.5"
-                        name="Botão de navegação dos feedbacks"
-                        aria-label="Botão de navegação dos feedbacks"
-                    >
-                        {currentSlide === index ? (
-                            <Circle className="w-4 h-4 text-green-30" />
-                        ) : (
-                            <Circle className="w-4 h-4 text-green-85" />
-                        )}
-                    </button>
-                ))}
-            </div>
         </div>
     );
 }

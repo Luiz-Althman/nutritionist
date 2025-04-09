@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const items = [
     {
-        img: '/woman-water.png',
+        img: 'https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/woman-water-MVBW9h7bGTSx1W1a9PyZuC1FXL83Y6.png',
         title: 'Weight Loss',
         subtitle: 'The Benefits of Hydration for Weight Loss',
         description:
@@ -16,7 +16,7 @@ const items = [
         hour: '5 min read',
     },
     {
-        img: '/woman-eats.png',
+        img: 'https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/woman-eats-pyq5VkJCVKbpEaiDo7yH5WzVHYdafy.png',
         title: 'Mindful Eating',
         subtitle: 'Cultivating a Healthy Relationship with Food',
         description:
@@ -28,7 +28,7 @@ const items = [
         hour: '5 min read',
     },
     {
-        img: '/two-woman-blogs.png',
+        img: 'https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/two-woman-blogs-hNhjxOC8ALCESH7ztcvlvPGMf68SJ1.png',
         title: 'Understanding Macronutrients',
         subtitle: 'Carbohydrates, Proteins, and Fats',
         description:
@@ -40,7 +40,7 @@ const items = [
         hour: '5 min read',
     },
     {
-        img: '/eats.png',
+        img: 'https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/eats-d4kqwpeNjqBehd5Au00Vk9I1FQdKA6.png',
         title: 'Healthy Snacks on the Go',
         subtitle: 'Quick and Nutritious Options',
         description:

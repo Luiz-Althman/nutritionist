@@ -21,7 +21,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
             <body className={`${urbanist.variable} bg-grey-97`}>
                 <main>
                     <div className="bg-green-15 pt-3.5">
@@ -29,7 +29,7 @@ export default function RootLayout({
                     </div>
 
                     {children}
-                    <div className="bg-green-15 py-10 px-20">
+                    <div className="bg-green-15 py-10">
                         <Footer />
                     </div>
                 </main>

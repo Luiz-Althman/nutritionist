@@ -1,7 +1,8 @@
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
-import { Navigations } from './navigations';
+import { Navigations } from '../navigations';
+import Link from 'next/link';
 
 export function Header() {
     return (
@@ -22,14 +23,14 @@ export function Header() {
                     </p>
                 </div>
                 <Image
-                    src="/scribble.png"
+                    src="https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/scribble-balByeKfHzrUoySdg1c8covmWCsKS4.png"
                     alt="Rabisco para decoração"
                     width={194}
                     height={44}
                     className="absolute -top-5 left-0 z-50"
                 />
                 <Image
-                    src="/scribble.png"
+                    src="https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/scribble-balByeKfHzrUoySdg1c8covmWCsKS4.png"
                     alt="Rabisco para decoração"
                     width={194}
                     height={44}
@@ -38,14 +39,14 @@ export function Header() {
             </div>
             <div className="mt-4 border-t-green-20 border-t py-6">
                 <div className="flex justify-between">
-                    <div>
+                    <Link href="/" className="cursor-pointer">
                         <Image
-                            src="/logo-desktop.png"
+                            src="https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/logo-desktop-UXe9NQhDiSX2Enau742XcaQDXizinA.png"
                             width={194}
                             height={45}
                             alt="Logo Nutritionist"
                         />
-                    </div>
+                    </Link>
                     <div className="flex items-center justify-center gap-10">
                         <Navigations />
                         <Button>Contact Us</Button>

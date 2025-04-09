@@ -1,6 +1,7 @@
 'use client';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { useState } from 'react';
 
 const plansMonthly = [
     {
@@ -33,14 +34,25 @@ const plansMonthly = [
 ];
 
 export function PricingList() {
+    const [tab, setTab] = useState('monthly');
     return (
-        <Tabs defaultValue="monthly" className="">
+        <Tabs value={tab} onValueChange={setTab}>
             <TabsList>
                 <TabsTrigger value="monthly">Monthly</TabsTrigger>
                 <TabsTrigger value="yearly">Yearly</TabsTrigger>
             </TabsList>
 
-            <p className="text-grey-30 2xl:text-md">Save 50% on Yearly</p>
+            {tab === 'monthly' && (
+                <p className="text-grey-30 2xl:text-md mt-4">
+                    Save 50% on Yearly
+                </p>
+            )}
+            {tab === 'yearly' && (
+                <p className="text-grey-30 2xl:text-md mt-4">
+                    Enjoy 50% discount to monthly
+                </p>
+            )}
+
             <TabsContent value="monthly" className="mt-10">
                 <div className="grid grid-cols-3 2xl:gap-8 md:gap-5">
                     {plansMonthly.map((plan) => (

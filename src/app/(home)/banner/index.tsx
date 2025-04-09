@@ -4,10 +4,13 @@ import Image from 'next/image';
 
 export function Banner() {
     return (
-        <section className="mb-36 flex justify-between 2xl:gap-20 md:gap-10">
+        <section
+            className="mb-36 flex justify-between 2xl:gap-20 md:gap-10"
+            id="top"
+        >
             <div className="bg-green-80-light w-1/2 relative rounded-br-4xl">
                 <Image
-                    src="/woman-home.png"
+                    src="https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/woman-home-C3aJhwT5pLgSNqEta4Hr01petmp4DJ.png"
                     alt="Background Texture"
                     priority
                     fill
