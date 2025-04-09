@@ -1,10 +1,9 @@
 'use client';
 
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { ChevronLeft, ChevronRight, Circle, Quote } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
-import { useState } from 'react';
 
 const testimonials = new Array(6).fill({
     id: 1,
@@ -15,7 +14,6 @@ const testimonials = new Array(6).fill({
 });
 
 export function TestimonialsList() {
-    const [currentSlide, setCurrentSlide] = useState(0);
     const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
         slides: {
             perView: 3,
