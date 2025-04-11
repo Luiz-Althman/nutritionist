@@ -54,7 +54,7 @@ const storys = [
         image: 'https://6qqnle6r40wks5gf.public.blob.vercel-storage.com/story-party-G5ag35U2f7K1sPnLEmhgLyvaYP4O9A.png',
         title: 'Celebrating Success Stories',
         description:
-            'Nutritionist celebrated its 500th client success story. These stories showcased the positive impact of personalized nutrition coaching on individuals (aspas) lives, further motivating our team to continue providing exceptional services.',
+            'Nutritionist celebrated its 500th client success story. These stories showcased the positive impact of personalized nutrition coaching on individuals lives, further motivating our team to continue providing exceptional services.',
         date: 'September 5, 2015',
     },
 

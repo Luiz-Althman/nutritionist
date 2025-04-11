@@ -9,9 +9,9 @@ export function Welcome() {
                     Your trusted source for personalized nutrition coaching. Our
                     mission is to help you achieve your weight loss and health
                     goals through tailored nutrition plans and expert guidance.
-                    We understand that every individual is unique, and that's
-                    why we believe in providing personalized solutions that fit
-                    your lifestyle and preferences.
+                    We understand that every individual is unique, and
+                    that&rsquo;s why we believe in providing personalized
+                    solutions that fit your lifestyle and preferences.
                     <br /> With our team of qualified nutritionists and
                     dietitians, we are dedicated to empowering you with the
                     knowledge and tools you need to make lasting changes.
