@@ -2,7 +2,7 @@ import { PricingList } from './PricingList';
 
 export function Pricing() {
     return (
-        <section className="mb-36 flex flex-col items-center">
+        <section className="flex flex-col items-center">
             <div className="flex flex-col items-center justify-center pb-20 text-center">
                 <h2 className="2xl:text-5xl md:text-4xl font-bold text-grey-15 pb-2.5">
                     Our Pricing

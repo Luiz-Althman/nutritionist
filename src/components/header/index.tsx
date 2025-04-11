@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 export function Header() {
     return (
-        <header className="flex flex-col mx-auto 2xl:px-40 md:px-20 ">
-            <div className="relative z-40 bg-green-20 rounded-md py-2.5 overflow-hidden  text-md">
+        <header className="flex flex-col mx-auto 2xl:px-40 md:px-20" id="top">
+            <div className="relative z-40 bg-green-20 rounded-md py-2.5 overflow-hidden text-md">
                 <div className="relative z-50 flex items-center justify-center gap-2">
                     <Image
                         src="/header-icon.svg"

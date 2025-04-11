@@ -29,7 +29,7 @@ export default function RootLayout({
                     </div>
 
                     {children}
-                    <div className="bg-green-15 py-10">
+                    <div className="bg-green-15 py-10 mt-24">
                         <Footer />
                     </div>
                 </main>

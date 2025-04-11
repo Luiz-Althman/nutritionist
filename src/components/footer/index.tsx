@@ -6,7 +6,7 @@ import { ContactFooter } from './contactFooter';
 
 export function Footer() {
     return (
-        <footer className="flex flex-col mx-auto 2xl:px-40 md:px-20 ">
+        <footer className="flex flex-col mx-auto 2xl:px-40 md:px-20">
             <div className="flex justify-between items-center pb-10">
                 <Link href="/" className="cursor-pointer">
                     <Image
