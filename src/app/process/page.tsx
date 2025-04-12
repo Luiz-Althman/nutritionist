@@ -1,4 +1,7 @@
 import { BannerWithTexture } from '@/components/bannerWithTexture';
+import { BoxInfo } from '@/components/boxInfo';
+import { Slogan } from '@/components/slogan';
+import { process } from '@/mocks/Process-works';
 
 export default function Process() {
     return (
@@ -22,6 +25,12 @@ export default function Process() {
                         to achieve your goals. Here&rsquo;s how it works
                     </p>
                 </div>
+                <BoxInfo items={process} />
+                <Slogan
+                    title="Are you ready to embark on a transformative journey towards better health and wellness?"
+                    description="Join us at Nutritionist and let us guide you on the path to a healthier and happier you."
+                    buttonName="Join Us Now"
+                />
             </div>
         </section>
     );
